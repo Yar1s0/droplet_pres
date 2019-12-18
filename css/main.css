@@ -1,0 +1,152 @@
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=VT323");
+
+body {
+  	font-family: 'Georgia Pro Cond', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+h1 {
+	font-size: 35px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+
+}
+
+.centered {
+    text-align: center;
+}
+
+.ocean{
+	top: 100px;
+    font-family: VT323;
+	width: 100%;
+	height: 30%;
+	padding:30px 0;
+	font-size:60px;
+	background: #21618C;
+	text-align:center;
+	font-weight: bold;
+	color:#D6EAF8;
+	text-shadow: 2px 2px #ff0000;
+}
+.subheading {
+	background-color: #FDEDEC ;
+	border-left: 10px solid #e74c3c;
+	color: #154360;
+	text-shadow: 2px 2px #AED6F1 ;
+	font-weight: bold;
+	padding: 2px 10px;
+	margin-right: 10px;
+	font-family:VT323;
+	font-size: 30px
+}
+.subheading1 {
+	background-color:white;
+	border-left: 7px solid #e74c3c;
+	color: #1c5684;
+	text-shadow: 2px 2px #AED6F1 ;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 2px 10px;
+	margin-right: 50px;
+}
+/* Helpers */
+
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.pt {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+/* +++++ WRAP SECTIONS +++++ */
+
+#ww {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: white;
+}
+
+
+#footer {
+    background-image: url("../img/space_stars.jpg");
+	padding-top: 50px;
+	padding-bottom: 50px; 
+}
+
+#footer p {
+	color: white;
+}
+
+#footer h4 {
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+
+/* +++++ Color Wraps / Blog Page +++++ */
+
+#grey {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #f2f2f2;
+}
+
+#white {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #ffffff;
+}
+
+.w3-button {width:100px;
+	position:relative;
+	right:400px;
+	top:100px;
+	display: inline-block;}
+#hello:hover {
+	letter-spacing: 0.2em;
+	background-color: #e74c3c;
+}
+
+#hello {
+	color: white;
+	text-shadow: 2px 2px #1c5684 ;
+}
+button {
+	height: 4em;
+	width: 100px;
+	padding: 1.5em auto;
+	margin: 1em auto;
+	background-color: #F08C99;
+	border: none;
+	border-radius: 3px;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	transition: all 0.2s cubic-bezier(.4,0,.2,1);
+
+}
+

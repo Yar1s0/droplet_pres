@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Droplet Game</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./PICS/drop.png" />
+
+</head>
+
+<body>
+
+  <div class="game">
+    <div id="hello">
+      <h2>Button Colors</h2>
+      <p><button onclick="window.location.href = 'about.html';" class="w3-button w3-red">Home</button></p></div>
+    <div class="canvas-holder">
+
+      <p>Score: <span id="score">0</span><br>Best Score: <span id="best-score">0</span></p>
+      <canvas id="canvas" width="600" height="600"></canvas>
+    </div>
+
+    <div class="extra-screen" id="load-title">
+      <div class="content-hold">
+        <h1>Saving The Earth</h1>
+        <p>Left and right arrow keys to move side to side<br>
+          Up arrow and Space key to shoot<br> Don't let the waste hit the ground<br></p>
+        <p> Press the "Enter" key to begin</p>
+      </div>
+        <img id='player'  class="hide-something" src="./PICS/drop.png">
+        <img id='villan1' class="hide-something" src='./PICS/villain1.png'>
+        <img id='villan2' class="hide-something" src='./PICS/straws.png'>
+        <img id='villan3' class="hide-something" src='./PICS/plasticbag.png'>
+        <img id='villan4' class="hide-something" src='./PICS/cigarrete.png'>
+
+    </div>
+
+    <div class="extra-screen hide" id="levelup-title">
+      <div class="content-hold">
+        <h1>Level Up!</h1>
+      </div>
+    </div>
+
+    <div class="extra-screen hide" id="lose-title">
+      <div class="content-hold">
+        <h1 id="GameEnd" class="hide"><br><span id="new-record" class="hide"><span></h1>
+        <p>Press "Enter" key to start again</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./JS/script.js"></script>
+</body>
+</html>
